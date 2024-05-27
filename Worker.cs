@@ -33,7 +33,7 @@ namespace Task7_1
             return $"{this.ID,15}{this.Createdate,15}{this.FIO,15}{this.Age,15}{this.Height,15}{this.Dateofbirth,15}{this.Placeofbirth}";
         }
 
-     public string ID { get { return this.ID; } set { this.ID = value; } }  
+     public int ID { get { return this.ID; } set { this.ID = value; } }  
      public DateTime Createdate { get { return this.Createdate; } set { this.Createdate = value; } }
      public string FIO { get { return this.FIO; } set { this.FIO = value; } }   
      public int Age { get { return this.Age; } set { this.Age = value; } }
@@ -41,12 +41,6 @@ namespace Task7_1
      public DateTime Dateofbirth { get {  return this.Dateofbirth; } set { this.Dateofbirth = value; } }
      public string Placeofbirth { get { return this.Placeofbirth; } set { this.Placeofbirth = value; } }
 
-        private int ID;
-        private DateTime Createdate;
-        private string FIO;
-        private int Age;
-        private int Height;
-        private DateTime Dateofbirth;
-        private string Placeofbirth;
+       
     }
 }
